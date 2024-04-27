@@ -1,0 +1,28 @@
+[0m16:34:58.012019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4AABD95B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4AABD8500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4AABDA270>]}
+
+
+============================== 16:34:58.012019 | cc7d8933-4280-463c-969f-e95d6d08dc87 ==============================
+[0m16:34:58.012019 [info ] [MainThread]: Running with dbt=1.7.13
+[0m16:34:58.012019 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\ansar\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init jaffle_shop', 'send_anonymous_usage_stats': 'True'}
+[0m16:34:58.012019 [debug] [MainThread]: Starter project path: C:\Users\ansar\OneDrive\Desktop\dbt\dbt_project\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:34:58.027721 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:34:58.027721 [info ] [MainThread]: Setting up your profile.
+[0m16:38:25.836587 [info ] [MainThread]: Profile jaffle_shop written to C:\Users\ansar\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:38:25.854218 [debug] [MainThread]: Command `dbt init` succeeded at 16:38:25.854218 after 210.78 seconds
+[0m16:38:25.854218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4CBDDCFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4CBE7E9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4CAF801A0>]}
+[0m16:38:25.855262 [debug] [MainThread]: Flushing usage events
